@@ -1,38 +1,60 @@
-.App {
+body {
+  background-color: #f9f9f9;
+}
+
+.timer {
   text-align: center;
+  margin-top: 30px;
+  font-size: 30pt;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.red {
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.controls {
+  text-align: center;
+  margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.typeText {
+  text-align: center;
+  width: 60rem;
+  margin: 0 auto;
+  font-size: 14pt;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textBox > textarea {
+  margin: 2rem auto 0 auto;
+  display: block;
+  resize: none;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+.gameover {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.gameover > div:first-child {
+  font-size: 30pt;
+}
+
+.bb {
+  border-bottom: 1px solid gray;
+  width: 10em;
+  margin: 0 auto;
 }
